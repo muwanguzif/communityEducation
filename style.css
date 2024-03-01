@@ -8,32 +8,20 @@
 
 header {  
     background:rgb(177, 177, 179);
-    height: 75px;
-    
-    
+    height: 75px;    
 }
 
-
-
-   .top_navbar .logo{
-    margin-top:;
+.top_navbar .logo{
     width: 250px;
     font-size: 30px;
     font-weight: 700;
     padding: 10 25px;
     color: red;
     letter-spacing: 2px;
-    inline-size: 90px;
-    
-    
-    
-    
-    
-    
-   }
+    inline-size: 90px; 
+}
 
-   .logo {
-    margin-top:;
+.logo {
     width: 250px;
     font-size: 30px;
     font-weight: 700;
@@ -44,29 +32,25 @@ header {
     background: #f18080;
     border-radius: 40px;
     
-   }
+}
 
-   .nav-bar li{
+.nav-bar li{
     margin-top: -20px;
-    float: right;
-   
-    
-   }
-   .nav-bar ul {
-    margin-top: -25px;
-   
-    
-    
-   }
+    float: right;   
+}
 
-   .nav-bar ul li{
+.nav-bar ul {
+    margin-top: -25px;    
+}
+
+.nav-bar ul li{
     display: inline-block;
     line-height: 50px;
     margin: 0 10px;
     font-size: 25px;
     
-   }
-   .nav-bar a{
+}
+.nav-bar a{
     color: red;
     text-decoration: none;
     background: #8d939c;
@@ -74,14 +58,13 @@ header {
     border-radius: 50px;
     margin: 10px;
      
-   }
-   .nav-bar a:hover{
+}
+.nav-bar a:hover{
     background-color: black;
+}
 
-   }
 
-
-   .hero {
+.hero {
     margin-top: 90px;
 
     height: 700px;;
@@ -89,16 +72,9 @@ header {
     background:url(images/pexels-祝-鹤槐-716281.jpg) no-repeat center / cover;
     opacity: 60%;
     border-radius: 20px;
-   }
+}
 
-   
-
-   
-
-
-   
-
-  .text {
+.text {
     color: #0c0000;
     background: #706896d5;
     width:80%;
@@ -109,63 +85,45 @@ header {
     align-items: center;
     justify-content: center;
     margin-top:200px ;
-    border-radius: 25px;
-    
-    
+    border-radius: 25px;  
+  }
 
-
-    
-  } 
-  .text h1 {
+.text h1 {
     margin-top: -50px;
     margin-bottom: 50px;
     background: #56c3e4;
     border-radius: 32px;
   }
 
+.features {
 
-
-  .features {
-
-    background: rgb(140, 140, 184);
-    
+    background: rgb(140, 140, 184);  
   }
    
- #container1 {
+#container1 {
     display: flex;
     margin: 10px;
     text-align: center;
     margin-bottom: 70px;
     margin-top: 70px;
     background: #584194;
-    border-radius: 50px;
-    
+    border-radius: 50px;   
 }
     
- }
-
- #txt1 {
+#txt1 {
     font-size: 20px;
     margin-top: -60px;
  }
 
- #txt2 {
-    font-size: 20px;
-    
+#txt2 {
+    font-size: 20px;   
  }
  
- #txt3 {
+#txt3 {
     font-size: 20px;
  }
 
-
-
-
-
-
-
-
- #container2 {
+#container2 {
     display: flex;
     margin: 10px;
     text-align: center;
@@ -173,9 +131,6 @@ header {
     background: #a7a4a4;
     border-radius: 40px;
  }
-
-
-
 
  #container3 {
     display: flex;
@@ -186,18 +141,9 @@ header {
 
  }
 
-
-
 body {
-    background: rgb(182, 180, 180); 
-
-    
-       
+    background: rgb(182, 180, 180);        
 }
-
-
-
-
 
 h1 {
     font-size: 3rem; 
@@ -207,8 +153,7 @@ h1 {
 
 p {
     line-height: 40px;
-    font-size: 20px;
-     
+    font-size: 20px;    
 }
 
 button {
@@ -222,21 +167,12 @@ button {
     font-size: 1em;
     font-weight: 600;
     transition: 0.3s all ease;
-
-
 }
 
 button:hover {
     color: #fff; 
     background: red; 
 }
-
-
-
-   
-
-
-
 /* footer */
 
 footer {
@@ -267,28 +203,18 @@ footer {
     background-color: #fff;
     cursor: pointer; 
 }  
-
-
-
-    
-
    
+h1 {
+    font-size: 1.8em; 
+}
 
-   
-    
-    h1 {
-        font-size: 1.8em; 
-    }
+button {
+    padding: 15px 90px; 
+}
 
-    button {
-        padding: 15px 90px; 
-    }
-    
 
-    footer {
-        text-align: center;
-        height: 100px
-        
-       ; 
-    } 
+footer {
+    text-align: center;
+    height: 100px; 
+} 
 
