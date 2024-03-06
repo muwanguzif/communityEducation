@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap'); 
+
 * {
     box-sizing: border-box;
     margin: 0; 
@@ -7,180 +8,92 @@
 }
 
 header {  
-    background:rgb(177, 177, 179);
+    background: rgb(177, 177, 179);
     height: 75px;
-    
-    
 }
 
-
-
-   .top_navbar .logo{
-    margin-top:;
+.top_navbar .logo, .logo {
     width: 250px;
     font-size: 30px;
     font-weight: 700;
-    padding: 10 25px;
+    padding: 10px 25px;
     color: red;
     letter-spacing: 2px;
-    inline-size: 90px;
-    
-    
-    
-    
-    
-    
-   }
+    inline-size: 90px; 
+    background: #f18080;
+    border-radius: 40px;
+}
 
-   .logo {
-    margin-top:;
-    width: 250px;
-    font-size: 30px;
-    font-weight: 700;
-    padding: 10 25px;
-    color: red;
-    letter-spacing: 2px;
-    inline-size: 90px;
-    
-   }
-
-   .nav-bar li{
+.nav-bar li {
     margin-top: -20px;
-    float: right;
-   
-    
-   }
-   .nav-bar ul {
-    margin-top: -25px;
-    
-    
-   }
+    float: right;   
+}
 
-   .nav-bar ul li{
+.nav-bar ul {
+    margin-top: -25px;    
+}
+
+.nav-bar ul li {
     display: inline-block;
     line-height: 50px;
     margin: 0 10px;
     font-size: 25px;
-    
-   }
-   .nav-bar a{
+}
+
+.nav-bar a {
     color: red;
     text-decoration: none;
-     
-   }
-   .nav-bar a:hover{
+    background: #8d939c;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.nav-bar a:hover {
     background-color: black;
+}
 
-   }
-
-
-   .hero {
+.hero {
     margin-top: 90px;
-
-    height: 700px;;
-
-    background:url(./pexels-祝-鹤槐-716281.jpg) no-repeat center / cover;
+    height: 700px;
+    background: url(images/pexels-祝-鹤槐-716281.jpg) no-repeat center / cover;
     opacity: 60%;
-   }
+    border-radius: 20px;
+}
 
-   
-
-   
-
-
-   
-
-  .text {
+.text {
     color: #0c0000;
-    background: #faf7f7;
-    width:80%;
+    background: #706896d5;
+    width: 80%;
     height: 260px;
-    
     font-weight: 900;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-top:200px ;
-    
-    
+    margin-top: 200px;
+    border-radius: 25px;  
+}
 
-
-    
-  } 
-  .text h1 {
+.text h1 {
     margin-top: -50px;
     margin-bottom: 50px;
-  }
-
-
-
-  .features {
-
-    background: rgb(140, 140, 184);
-  }
-   
- #container1 {
-    display: flex;
-    margin: 10px;
-    text-align: center;
-    margin-bottom: 70px;
-    margin-top: 70px;
-    
+    background: #56c3e4;
+    border-radius: 32px;
 }
-    
- }
 
- #txt1 {
+.features, #container1, #container2, #container3 {
+    background: rgb(140, 140, 184);  
+    border-radius: 50px;
+}
+
+#txt1, #txt2, #txt3 {
     font-size: 20px;
     margin-top: -60px;
- }
-
- #txt2 {
-    font-size: 20px;
-    
- }
- 
- #txt3 {
-    font-size: 20px;
- }
-
-
-
-
-
-
-
-
- #container2 {
-    display: flex;
-    margin: 10px;
-    text-align: center;
-    margin-bottom: 40px;
-    
- }
-
-
-
-
- #container3 {
-    display: flex;
-    margin: 10px;
-    text-align: center;
-
- }
-
-
-
-body {
-    background: rgb(182, 180, 180); 
-
-    
-       
 }
 
-
-
-
+body {
+    background: rgb(182, 180, 180);        
+}
 
 h1 {
     font-size: 3rem; 
@@ -190,12 +103,11 @@ h1 {
 
 p {
     line-height: 40px;
-    font-size: 20px;
-     
+    font-size: 20px;    
 }
 
 button {
-    padding: 15px 60px; 
+    padding: 15px 60px;
     margin-top: 30px; 
     margin-bottom: 40px;
     border-radius: 5rem;
@@ -205,8 +117,6 @@ button {
     font-size: 1em;
     font-weight: 600;
     transition: 0.3s all ease;
-
-
 }
 
 button:hover {
@@ -214,19 +124,11 @@ button:hover {
     background: red; 
 }
 
-
-
-   
-
-
-
-/* footer */
-
+/* Footer */
 footer {
-    
     text-align: center;
-    background-color: rgb(31, 32, 32);
-    height: 60px;  
+    background-color: rgb(103, 107, 107); 
+    height: 100px;
 }
 
 .fab {
@@ -249,29 +151,4 @@ footer {
     border-color: #fff;
     background-color: #fff;
     cursor: pointer; 
-}  
-
-
-
-    
-
-   
-
-   
-    
-    h1 {
-        font-size: 1.8em; 
-    }
-
-    button {
-        padding: 15px 90px; 
-    }
-    
-
-    footer {
-        text-align: center;
-        height: 100px
-        
-       ; 
-    } 
-
+}
