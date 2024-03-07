@@ -21,7 +21,6 @@ header {
     letter-spacing: 2px;
     inline-size: 90px; 
     background: #f18080;
-    border-radius: 40px;
 }
 
 .nav-bar li {
@@ -67,7 +66,7 @@ header {
     width: 80%;
     height: 260px;
     font-weight: 900;
-    display: inline-flex;
+    display: ;
     align-items: center;
     justify-content: center;
     margin-top: 200px;
@@ -81,15 +80,35 @@ header {
     border-radius: 32px;
 }
 
-.features, #container1, #container2, #container3 {
+.features {
     background: rgb(140, 140, 184);  
     border-radius: 50px;
+    
 }
 
-#txt1, #txt2, #txt3 {
-    font-size: 20px;
-    margin-top: -60px;
+#container1  {
+    display: flex;
+    background: #8d939c;
+    margin-top: 40px;
 }
+
+#container2  {
+    display: flex;
+    background: #697a94;
+    margin-top: 40px;
+}
+
+#container3  {
+    display: flex;
+    background: #4e5764;
+    margin-top: 40px;
+}
+
+
+
+
+
+
 
 body {
     background: rgb(182, 180, 180);        
@@ -106,7 +125,7 @@ p {
     font-size: 20px;    
 }
 
-button {
+#btn1 {
     padding: 15px 60px;
     margin-top: 30px; 
     margin-bottom: 40px;
