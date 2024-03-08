@@ -21,7 +21,7 @@ header {
     letter-spacing: 2px;
     inline-size: 90px; 
     background: #f18080;
-    border-radius: 40px;
+     
 }
 
 .nav-bar li {
@@ -71,7 +71,9 @@ header {
     align-items: center;
     justify-content: center;
     margin-top: 200px;
-    border-radius: 25px;  
+    border-radius: 25px; 
+    display: block;
+   
 }
 
 .text h1 {
@@ -79,16 +81,38 @@ header {
     margin-bottom: 50px;
     background: #56c3e4;
     border-radius: 32px;
+
 }
 
-.features, #container1, #container2, #container3 {
+.features{
     background: rgb(140, 140, 184);  
     border-radius: 50px;
 }
 
-#txt1, #txt2, #txt3 {
-    font-size: 20px;
-    margin-top: -60px;
+
+#container1 {
+    display: flex;
+    margin-top: 40px;
+    background: #4b5768;
+    border: 3px black solid;
+
+}
+
+#container2 {
+    display: flex;
+    margin-top: 40px;
+    background: #3b4c64;
+    border: 3px black solid;
+    
+}
+
+#container3 {
+    display: flex;
+    margin-top: 40px;
+    background: #264570;
+    margin-bottom: 40px;
+    border: 3px black solid;
+    
 }
 
 body {
@@ -128,7 +152,7 @@ button:hover {
 footer {
     text-align: center;
     background-color: rgb(103, 107, 107); 
-    height: 100px;
+    height: 160px;
 }
 
 .fab {
