@@ -1,30 +1,140 @@
 
+/* hero */
+.hero-section {
+  background: url('./images/community_hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+  text-align: left;
+}
 
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  color: #fff;
+  padding: 1rem;
+}
 
+.hero-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
 
+.hero-content p {
+  font-size: 1.2rem;
+}
 
-
-
-
-
-
+/*navbar*/
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: transparent;
   color: #fff;
   padding: 1rem;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10;
 }
+
 .navbar-brand {
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.navbar-brand a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .navbar-links {
   list-style: none;
   display: flex;
   gap: 1rem;
 }
+
 .navbar-links li {
   margin: 0;
+}
+
+.navbar-links li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+/*features*/
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.feature img, .feature-text {
+  flex-grow: 1;
+  flex-basis: 0; 
+  padding: 1rem;
+}
+
+.feature img {
+  width: 100%; 
+  height: auto; 
+  max-width: 600px;
+}
+
+.feature.reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .feature, .feature.reverse {
+    flex-direction: column;
+  }
+
+  .feature img {
+    width: 80%; 
+    margin: 0 auto; 
+  }
+  
+  .feature-text {
+    width: 100%; 
+    padding: 0 1rem;
+  }
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #dcdcdc; 
+  color: #333; 
+}
+
+.footer-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.social-icons i {
+  font-size: 1.2rem;
+  margin: 0 0.5rem; 
+  color: #333; 
+}
+
+.social-icons i:hover {
+  color: #007bff; 
 }
